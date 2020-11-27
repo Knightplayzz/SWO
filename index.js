@@ -13,11 +13,11 @@ bot.commands = new discord.Collection()
 
 bot.on("guildMemberAdd", member => {
 
-    //var joinRole = member.guild.roles.cache.get('role id hier');
-    //if (!joinRole) return;
-    //member.roles.add(joinRole);
+    var joinRole = member.guild.roles.cache.get('781949235473154109');
+    if (!joinRole) return;
+    member.roles.add(joinRole);
 
-    var joinChannel = member.guild.channels.cache.get('767072977853349958');
+    var joinChannel = member.guild.channels.cache.get('781955969465974784');
     if (!joinChannel) return;
 
     //channel.send("welkem bij server.")
