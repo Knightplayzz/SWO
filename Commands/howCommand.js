@@ -16,9 +16,9 @@ var botEmbed = new discord.MessageEmbed()
         `**!serverinfo** | !serverinfo.`,
         `**!hello** | !hello.`,
         `**!ping** | !ping.`,
-        `**!update** | !update.`,
+        `**!botupdate** | !botupdate.`,
         `**!invite** | !invite.`,
-        `**!gameupdate** | !gameupdate.`,
+        `**!update** | !update.`,
         `**!ticket** | !ticket.`,
         `**!new** | !new.`,
 
