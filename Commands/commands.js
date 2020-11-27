@@ -18,7 +18,7 @@ var botEmbed = new discord.MessageEmbed()
         `**!ping** | Shows the ping of the bot.`,
         `**!botupdate** |  See information about SWO bot.`,
         `**!invite** | Invite **Night-bot!**.`,
-        `**!update** | See new things in this update**.`,
+        `**!update** | See new things in this update.`,
         `**!ticket** | Creates a ticket.`,
         `**!new** | Creates a ticket.`,
 
