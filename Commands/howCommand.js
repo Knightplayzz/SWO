@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
     try{
       
 var botEmbed = new discord.MessageEmbed()
-    .setTitle(`_***GameNight Commands***_`)
+    .setTitle(`_***SWO Commands***_`)
     .setDescription(`Ping is ${Date.now() - message.createdTimestamp}ms.`)
     .setColor("#001366")
     .addField('**Server Commands**', [
@@ -17,7 +17,8 @@ var botEmbed = new discord.MessageEmbed()
         `**!hello** | !hello.`,
         `**!ping** | !ping.`,
         `**!update** | !update.`,
-        `**!invite** | !invite **Night-bot**.`,
+        `**!invite** | !invite.`,
+        `**!gameupdate** | !gameupdate.`,
         `**!ticket** | !ticket.`,
         `**!new** | !new.`,
 
@@ -29,6 +30,7 @@ var botEmbed = new discord.MessageEmbed()
         `**!tempmute** | !tempmute <@player> <seconds x 1000>`,
         `**!clear** | !clear <amount> (**NOT 99+**).`,
         `**!announce** |!announce <title> | <message> | <collor> | <channel>.`,
+        `**!dcannounce** |!announce <title> | <message> | <collor> | <channel>.`,
         `**!amongus** | !amongus <code>.`,
         `**!addrole** | !addrole <@player> <role.id>.`,
         `**!removerole** | !removerole <@player> <role.id>.`,

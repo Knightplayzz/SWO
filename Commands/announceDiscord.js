@@ -33,7 +33,7 @@ module.exports.run = async (client, message, args) => {
   var argsList = args.join(" ").split(seperator);
 
   if(argsList[2] === undefined) argsList[2] = "BLUE";
-  if(argsList[3] === undefined) argsList[3] = "📢announcements";
+  if(argsList[3] === undefined) argsList[3] = "📢discord-announcements";
 
   var options = {
 
@@ -59,5 +59,5 @@ module.exports.run = async (client, message, args) => {
 }
 
 module.exports.help = {
-    name: "announce"
+    name: "dcannounce"
 }
