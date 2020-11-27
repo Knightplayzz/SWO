@@ -35,8 +35,8 @@ bot.on("guildMemberAdd", member => {
 
 bot.on("ready", async () => {
 console.log(`is online.`);
-bot.user.setActivity("Your problems", {
-    type:"LISTENING"
+bot.user.setActivity("SWO", {
+    type:"PLAYING"
 } );
 });
 
