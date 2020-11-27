@@ -2,7 +2,7 @@ const discord = require("discord.js");
 
 module.exports.run = async (client, message, args) => {
 
-    const categoryID = "779405637334466612";
+    const categoryID = "781952080750444544";
 
     if(!message.member.hasPermission("KICK_MEMBER")) return message.reply("Only admins can do this command");
 
